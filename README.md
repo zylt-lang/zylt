@@ -1,3 +1,5 @@
+markdown
+Copy
 # Zylt Programming Language
 
 **Zylt** is an experimental Lisp/Brainfuck-inspired programming language.
@@ -66,6 +68,9 @@ The output file is in 8086 format, so please use an MSDOS emulator.
   $[ $< $] $. -- "Repeat for previous table and print"
   $% 2 $.     -- "Jump to table[2] and print"
 )
-
-## import_sample.dat
+import_sample.dat
+zylt
+Copy
 (32 33 72 87 100 101 108 111 114)
+Release History
+2025/02/26: V0.0.1
