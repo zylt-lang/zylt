@@ -30,8 +30,8 @@ The output file is in 8086 format, so please use an MSDOS emulator.
 | `$.`   | Similar to `[.]` |
 | `$~`   | Similar to `[,]` (e.g., `($, 20)` allows writing "20") |
 | `$_`   | Similar to `nop` |
-| `$[`   | Similar to `[[` |
-| `$]`   | Similar to `]]` |
+| `$[`   | Similar to `[[]` |
+| `$]`   | Similar to `[]]` |
 | `$@`   | Similar to `goto` |
 | `$?`   | Similar to `cmp` (Compares the first element of `tbllst`. [Match]: Jump to the next value's program position, [Mismatch]: Proceed to the next program) |
 | `$%`   | Moves to the specified table position |
